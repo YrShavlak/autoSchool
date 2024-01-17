@@ -16,13 +16,10 @@ public class UpdateValues {
         System.out.print("Enter the value of the variable c: ");
         int c = scanner.nextInt();
 
-        int newA = a + b;
-        int newB = c - a;
-        int newC = a + b + c;
+        a = a + b;
+        b = c - a + b;
+        c = a + c; // a - c + a + b + c - a - b + c;
 
-        a = newA;
-        b = newB;
-        c = newC;
 
         System.out.println("Updated variables: a = " + a + ", b = " + b + ", c = " + c);
     }

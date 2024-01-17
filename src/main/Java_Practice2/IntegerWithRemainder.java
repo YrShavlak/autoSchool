@@ -10,7 +10,7 @@ public class IntegerWithRemainder {
     public static void  main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the value of the variable q: ");
+        System.out.print("Enter the value of the variable b: ");
         int q = scanner.nextInt();
 
         System.out.print("Enter the value of the variable w: ");
